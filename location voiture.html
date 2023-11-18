@@ -1,0 +1,68 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="location.css">
+</head>
+
+
+
+<body>
+  <h1>Formulaire de location de véhicule</h1>
+
+  <form method="POST" action="local.php">
+    <label for="type">Quel type de véhicule ?</label>
+		<select name="type" id="type">
+			<option value="voiture">Voiture</option>
+			<option value="utilitaires">Utilitaires</option>
+			<option value="selection">Sélection</option>
+		</select>
+    <label for="depart">Départ et lieu de retour :</label>
+    <input type="text" id="depret" name="depret" placeholder="Départ et lieu de retour">
+	
+	<label for="datedepart">Date de départ :</label>
+		<input type="date" name="datedepart" id="datedepart" />
+		<label for="dateretour">Date de retour :</label>
+		<input type="date" name="dateretour" id="dateretour" />
+		<label for="age">Mon age </label>
+		<input type="text" name="age" id="age" list="ages" />
+		<datalist id="ages">
+			<option value="20+"></option>
+			<option value="30+"></option>
+			<option value="40+"></option>
+			<option value="50+"></option>
+		</datalist>
+
+<label for="reside">Je réside en </label>
+<input type="text" name="depart" id="depart" list="villes" />
+		<datalist id="villes">
+			<option value="Tunis"></option>
+			<option value="Ariana"></option>
+			<option value="Manouba"></option>
+			<option value="Bizerte"></option>
+			<option value="Ben Arous"></option>
+			<option value="Nabeul"></option>
+			<option value="Zaghouan"></option>
+			<option value="Béja"></option>
+			<option value="Jendouba"></option>
+			<option value="Siliana"></option>
+			<option value="Le Kef"></option>
+			<option value="Sousse"></option>
+			<option value="Kairouan"></option>
+			<option value="Monastir"></option>
+			<option value="Mahdia"></option>
+			<option value="Sfax"></option>
+			<option value="Sidi Bouzid"></option>
+			<option value="Kasserine"></option>
+			<option value="Gafsa"></option>
+			<option value="Kébili"></option>
+			<option value="Gabès"></option>
+			<option value="Tozeur"></option>
+			<option value="Tataouine"></option>
+			<option value="Médenine"></option>
+		</datalist>
+
+
+    <input type="submit" value="Envoyer">
+  </form>
+</body>
+</html>

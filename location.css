@@ -1,0 +1,47 @@
+
+body{
+	background-image: url("voiture.jpg");
+}
+
+/* Ajoutez une couleur de fond et une bordure au formulaire */
+form {
+
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Ajoutez un style de police personnalisé au titre */
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Ajoutez un style de police et un espacement aux labels */
+label {
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Ajoutez un style de police et une bordure aux champs de texte */
+input[type="text"] {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+/* Ajoutez des styles spécifiques pour le bouton "Envoyer" */
+input[type="submit"] {
+  background-color:pink;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
